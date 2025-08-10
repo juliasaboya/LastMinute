@@ -87,12 +87,13 @@ struct ContentView: View {
 
                     } label: {
                         Text("Salvar")
+                            .bold()
                             .padding(.vertical)
                             .frame(maxWidth: .infinity)
-                            .foregroundStyle(.white)
+                            .foregroundStyle(.darkGreen)
                             .background {
                                 RoundedRectangle(cornerRadius: 8)
-                                    .foregroundStyle(.darkGreen)
+                                    .foregroundStyle(.lightGreen)
                             }
                     }
                     .padding(.horizontal)
